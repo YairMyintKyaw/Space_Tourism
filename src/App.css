@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Bellefair&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav .active {
+  border-bottom: solid 5px white;
+}
+
+.destination .active {
+  color: white;
+  border-bottom: solid 3px white;
+}
+
+.crew .active {
+  background-color: white;
+}
+
+.technology .active {
+  background-color: white;
+  color: #0b0d17;
+}
